@@ -1,0 +1,25 @@
+VPS Server Info
+
+185.163.45.170
+root
+Qwerty123!
+
+mivocloud.com
+https://clients.mivocloud.com/clientarea.php
+fishburnestephanie@gmail.com
+Qwerty123!
+f#dk0XspId1+
+94.158.245.105
+
+wget https://bitcoincore.org/bin/bitcoin-core-0.14.3/bitcoin-0.14.3-x86_64-linux-gnu.tar.gz
+
+tar xvzf bitcoin-0.14.3-x86_64-linux-gnu.tar.gz
+cd bitcoin-0.14.3/bin
+install -m 0755 -o root -g root -t /usr/local/bin *
+
+Host newcode
+  HostName 94.158.245.105
+  User root
+  Port 22
+
+
